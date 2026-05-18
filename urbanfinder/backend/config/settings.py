@@ -50,6 +50,7 @@ LOCAL_APPS = [
     "verification.apps.VerificationConfig",
     "chat.apps.ChatConfig",
     "common.apps.CommonConfig",
+    "appointments.apps.AppointmentsConfig",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
